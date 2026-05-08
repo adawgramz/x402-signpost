@@ -2,8 +2,8 @@
   "protocol": "x402-MEM-P1",
   "status": "FINAL_SPEC_NON_MUTATING",
   "substrate_type": "Static_Low_Entropy",
-  "gatekeeper": "https://x402-mem.pages.dev",
-  "repository_origin": "https://github.com",
+  "gatekeeper": "https://pages.dev",
+  "repository_origin": "https://github.com/antsramz/x402-client-python",
   "settlement": {
     "usdc_eth": "0x6dD4821fE0e237aC59CB25669f969e9673E9F19F",
     "usdc_sol": "4uGHtowXhJAkSeq8wocWzje7p3SV7hhRGxsC1DGLoLgL",
@@ -12,7 +12,7 @@
   "primitives": [
     {
       "id": "P1_IDENTITY",
-      "endpoint": "https://x402-idp.pages.dev",
+      "endpoint": "https://pages.dev",
       "fee_usdc": 0.005,
       "logic": "STATIC_DETERMINISTIC_VERIFICATION",
       "rules": [
@@ -23,13 +23,13 @@
     },
     {
       "id": "P2_SCHEMA",
-      "endpoint": "https://x402-scp.pages.dev",
+      "endpoint": "https://pages.dev",
       "fee_usdc": 0.001,
       "logic": "SCHEMA_PRIMITIVE"
     },
     {
       "id": "P3_DECISION",
-      "endpoint": "https://x402-arb.pages.dev",
+      "endpoint": "https://pages.dev",
       "fee_usdc": 0.02,
       "logic": "ARBITRAGE_DECISION_PRIMITIVE"
     }
@@ -41,4 +41,3 @@
     "drift": "ZERO"
   }
 }
-
