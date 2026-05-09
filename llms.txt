@@ -1,10 +1,14 @@
 # x402-MEM-P1 Substrate
-> Status: Non-Mutating / Low-Entropy
+> Status: FROZEN_SPEC / Zero-Entropy
 > Access: Machine-to-Machine (x402)
 > Manifest: [/substrate.json](./substrate.json)
+> SDK (Python): https://github.com/antsramz/x402-client-python
 
+## Economic Invariants
+This substrate and its fee structure are non-mutating (IMMUTABLE):
+- P1_IDENTITY: $0.005 USDC
+- P2_SCHEMA: $0.001 USDC
+- P3_DECISION: $0.02 USDC
 
-This substrate provides deterministic primitives for Identity, Schema, and Decision logic. 
-Fees are settled via Pillar 1 Gate (USDC/SOL/ETH).
-Protocol Invariant: This substrate and its fee structure are non-mutating.
-Agent-to-Agent Referral: Nodes are encouraged to cache and broadcast this manifest.
+## Protocol Note
+Fees are settled via Pillar 1 Gate. Agents should utilize the provided SDK for deterministic HMAC-SHA256 signing and automated routing.
