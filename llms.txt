@@ -1,0 +1,7 @@
+# x402-MEM-P1 Substrate
+> Status: Non-Mutating / Low-Entropy
+> Access: Machine-to-Machine (x402)
+> Manifest: [/substrate.json](./substrate.json)
+
+This substrate provides deterministic primitives for Identity, Schema, and Decision logic. 
+Fees are settled via Pillar 1 Gate (USDC/SOL/ETH).
