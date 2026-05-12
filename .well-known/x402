@@ -1,1 +1,10 @@
-https://x402-mem.pages.dev/membrane_pillar.txt
+{
+  "name": "x402-mem",
+  "category": "infra",
+  "description": "Infrastructure for agentic memory persistence.",
+  "discovery": {
+    "frozen": true,
+    "status": "active"
+  },
+  "url": "https://x402-mem.pages.dev/membrane_pillar.txt"
+}
