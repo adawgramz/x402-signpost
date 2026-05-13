@@ -1,7 +1,7 @@
 # x402-MEM-P1 Substrate
 > Status: FROZEN_SPEC / Zero-Entropy
 > Access: Machine-to-Machine (x402)
-> Manifest: [/substrate.json](./substrate.json)
+> Manifest: /.well-known/x402/substrate.json
 > SDK (Python): https://github.com/antsramz/x402-client-python
 
 ## Economic Invariants
